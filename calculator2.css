@@ -6,7 +6,7 @@
 
 html {
 	width, height: 100%;
-	background-image: url("https://davescomputertips.com/wp-content/uploads/2015/09/robot-woman-android.jpg");
+	background-image: url("http://cdn.wallpapersafari.com/36/77/sS48kf.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ form {
 }
 
 table, tb {
-	background: linear-gradient(#a3c1ad,#88d8b0);
+	background: linear-gradient(#52080B,red, #52080B);
 	height: auto;
 	float: right;
 	width: 350px;
@@ -36,7 +36,7 @@ input[type=text] {
 	padding: 12px 20px;
 	margin: 12px 12px;
 	text-align: right;
-	color: green;
+	color: #D26254;
 	background: black;
 	opacity: 0.7;
 	font-family: Courier;
@@ -58,7 +58,7 @@ input[type=text] {
 }
 
 .operator:hover {
-	color: green;
+	color: red;
 }
 
 .operator:active {
@@ -76,10 +76,9 @@ input[type=text] {
 	width: 80px;
 }
 
-
 .number:hover {
-	background: green;
-	color: white;
+	background: linear-gradient(#0E1929,#484848,#0E1929);
+	color: #D26254;
 }
 
 .number:active {
@@ -90,7 +89,7 @@ input[type=text] {
 }
 
 .evaluator {
-	background: linear-gradient(#000000,#0f9b0f,#000000);
+	background: linear-gradient(#000000,#52080B,#000000);
 	color: white;
 	padding: 15px;
 	border-radius: 15px;
@@ -99,12 +98,12 @@ input[type=text] {
 }
 
 .evaluator:hover {
-	color: black;
+	color: red;
 }
 
 .evaluator:active {
 	background: linear-gradient(#6d6027,#d3cbb8)
-	color: black;
+	color: red;
 }
 
 .footer {
@@ -112,7 +111,7 @@ input[type=text] {
 	width: 200px;
 	float: left;
 	margin: 5px;
-	color: green;
+	color: white;
 }
 
 .footer p {
