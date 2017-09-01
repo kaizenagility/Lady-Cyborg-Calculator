@@ -2,9 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    
     <title>Cyborg Lady Calculates</title>
+    
     <script src='https://code.responsivevoice.org/responsivevoice.js'> </script>
+    
     <link rel="stylesheet" type="text/css" href="calculator.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
   </head>
   <body>
 
@@ -101,7 +106,7 @@
 
         <tr>
           <td>
-            <input type="button" name="clear" class="operator" value="c" onclick="window.input_clear()">
+            <input type="button" name="clear" class="operator" value="C" onclick="window.input_clear()">
           </td>
           <th id="display" colspan="3">
             <input type="text" name="Input" size="10" font-color="green">
@@ -178,7 +183,7 @@
         <tr>
           <td colspan="2">
             <!-- Need to make this average button function. -->
-            <input type="button" name="average" class="evaluator" value="avg" onclick="Calc.Input.value = window.average(Calc.Input.value)">
+            <input type="button" name="average" class="evaluator" value="AVG" onclick="Calc.Input.value = window.average(Calc.Input.value)">
           </td>
           <td colspan="2">
             <input type="button" name="equals" class="evaluator" value="=" onclick="window.equals(Calc.Input.value)">
@@ -187,6 +192,15 @@
 
       </table>
     </form>
+
+<!-- ======== Footer ======== -->
+
+  <div class="footer">
+    <h1> Lady Cyborg Calculates </h1>
+    <p> Best heard on Firefox. <br><br>
+    CREATRIX: 
+    <p> Kai Lin Zhang </p>> [September 1, 2017] @ Per Scholas. </p>
+  </div>
 
 
   </body>
