@@ -125,6 +125,7 @@ input[type=text] {
 	background-color: white;
 	color: green;
 	border-radius: 5px;
+	opacity: 0.8;
 }
 
 #button2 {
